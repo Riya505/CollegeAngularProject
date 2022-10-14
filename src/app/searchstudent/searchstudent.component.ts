@@ -9,6 +9,15 @@ export class SearchstudentComponent implements OnInit {
 
   constructor() { }
 
+  admissionNo=""
+
+  readValues=()=>{
+    let data={
+      "admissionNo":this.admissionNo
+    }
+    console.log(data)
+  }
+
   ngOnInit(): void {
   }
 
